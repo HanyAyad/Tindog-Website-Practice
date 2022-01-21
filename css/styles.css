@@ -1,0 +1,122 @@
+/* Title */
+#title {background-color: #ff4c68;}
+a{text-decoration:none;}
+h1{font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;}
+p{font-family: 'Fira Sans', sans-serif;}
+.container-fluid{padding: 3% 15%;}
+
+/* Navigation bar */
+.navbar-brand{font-family: 'Fredoka One', cursive;
+               color: white;
+             font-size: 2.5rem;}
+.nav-link{ font-size: 1.5rem;
+           margin: auto 30px auto 30px;}
+.navbar{padding: 0;
+        margin-right: 4%;}
+
+/* Download Buttons */
+.download-button{ margin: 5% 3% 5% 0; font-size:1.5rem;}
+
+/* Title Image */
+.title-image{width:80%;
+padding-top: 5%;
+padding-left:23%;
+margin-left: 7%;
+}
+
+/* Features */
+#features{text-align: center;
+ padding: 7% 15%;
+background-color: white;}
+ .featuresIcon{color:#ff4c68;
+               font-size: 6rem;
+               margin-bottom: 30px;
+             margin-top: 10px;}
+.featuresIcon:hover{color:#ef8172;
+  font-size: 6rem;
+  margin-bottom: 30px}
+.FeatureItem {font-size: 1.5rem;
+              font-family: 'Montserrat', sans-serif;
+               font-weight: bold;}
+.FeatureSub{ color:#8f8f8f;}
+
+/* Testimonials */
+#testimonials{background-color:#ff4c68;
+             color: white;
+           text-align: center;
+         padding-top: 70px;}
+.comment {font-family: 'Montserrat', sans-serif;
+             font-size: 3rem;}
+.testimonial-img{ width: 10%;
+                  border-radius: 100%;
+                margin: 30px; }
+.carousel-item{padding: 7% 20%;}
+
+/* Press */
+#press{ text-align: center;
+        background-color:#ff4c68;
+      padding-bottom: 70px;}
+.press-img{width: 10%;
+margin: 20px 20px 50px; }
+
+
+/* pricing */
+  #pricing{text-align: center;
+           padding: 7% 15%;}
+.pricing-SecHeader{font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;}
+.card-header{background-color: #ff4c68;
+            color: white;}
+.buy-button{width: 100%;
+  background-color: #ff4c68;
+              color: white;
+            }
+.buy-button:hover{background-color: #ef8172;}
+
+.buy-button1{width: 100%;
+color: #ff4c68;
+border-color: #ff4c68;}
+.buy-button1:hover{background-color:#ef8172;
+                    border-color: #ef8172;
+                    color: white;}
+.Pricing-column {padding: 3% 2%;}
+.plan-title{font-family: 'Montserrat', sans-serif;}
+.plan-price{font-family: 'Montserrat', sans-serif;
+            font-weight:bold; }
+
+/* Call To Action */
+#cta{text-align: center;
+     background-color:#ff4c68;
+     padding: 7% 15%}
+.cta-title{font-size: 4rem;
+          font-family: 'Montserrat', sans-serif;
+        color: white;
+      }
+
+/* Copyright */
+#footer{text-align: center;
+padding: 4%;
+background-color: white;}
+.SocialMedia{font-size: 1.5rem;
+margin: 20px;
+color: black;}
+.SocialMedia:hover{color: #ff4c68;}
+/* Media query */
+/* --------------------------- */
+/* Title Image */
+@media (max-width:1470px) and (min-width:1342px) {
+  .title-image{width: 100%;}
+}
+@media (max-width:1341px) {
+.title-image{width: 130%;
+             margin-top: 7%}
+}
+@media (max-width:992px) {
+  #title{text-align: center;}
+  .title-image{width: 50%;
+  padding:0;
+  margin-left: 0;
+}}
